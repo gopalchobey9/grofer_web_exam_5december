@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.header{
+    background-color:white;
+    height: 10vh;
+    display: flex;
+    position: sticky;
+    justify-content: space-evenly;
+}
+.logo{
+    color: aliceblue;
+    font-size: 2rem;
+}
+ #g{
+color: coral;
+}
+.header .navbar a{
+    color: aliceblue;
+    font-size: 1.8rem;
+    padding: 8px;
+    color: black;
+   
+   }
+   .btn {
+    border: 1px solid black;
+    padding: 12px;
+    margin: 10px;
+
+}
+.navbar a:hover{
+    color: coral;
+}
+.logo :hover{
+    color: coral;
+    
+}
+.btn:hover{
+    background-color: chocolate;
+}
+.first{
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 60vh;
+    background-image: url(https://img.freepik.com/free-photo/abstract-blur-supermarket-retail-store_74190-7546.jpg?size=626&ext=jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+
+}
+.head h1{
+    font-size: 2.5rem;
+}
+.head pre{
+    font-size: 1.2rem;
+}
+.scnd{
+    width: 100vw;
+    background-color: azure;
+
+}
+.cr{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+}
+.third{
+    width: 100vw;
+}
+.color{
+    background-color: coral;
+    color: azure;
+    padding: 6px;
+    margin: 10px;
+}
+.john{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    width: 70vw;
+    justify-content: center;
+    border: 2px solid antiquewhite;
+}
+.john:hover{
+ border: 3px solid black;
+
+}
+.john img{
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+}
+#star{
+    color: coral;
+}
+.box{
+    border: 2px solid antiquewhite;
+}
+.box img {
+ height: 300px;
+ width: 550px;
+}
+.a{
+    display: flex;
+}
+.user{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 100px;
+    border-bottom-color: coral;
+
+}
+.hr{
+    width: 10px;
+    color: coral;
+}
+.fh{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 20px;
+}
+.min{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 10px;
+
+}
+.footer{
+    height: 50vh;
+
+}
+.footer .two{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fl{
+    display: flex;
+    padding: 10px;
+}
+.footer .frst{
+    padding: 50px;
+    font-size: 1.2rem;
+
+}
